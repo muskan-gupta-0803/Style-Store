@@ -1,0 +1,52 @@
+.main-container{
+    margin: 9vh 1rem 0 1rem;
+    height: 90vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login-container, .form-cont{
+    background-color: var(--white-color);
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.ip-box{
+    margin-bottom: 1rem;
+    margin-top: 0.2rem;
+    border-width:1px ;
+    font-size: 1.1rem;
+    padding: 0.3rem;
+}
+
+.lg-btn, .su-btn{
+    background-color: var(--icon-badge);
+    color: var(--white-color);
+    border: none;
+    width: 100%;
+    margin-left: 0;
+    cursor: pointer;
+}
+
+.lg-btn:hover, .su-btn:hover{
+    opacity: 0.8;
+}
+
+.forgot-pw{
+    color:var(--icon-badge);
+    margin-bottom: 0.5rem;
+}
+
+.lg-link{
+    text-decoration: none;
+}
+
+.new-account{
+    color: var(--primary-color);
+}
+
+/* INCLUDES SIGNUP CSS */
+
