@@ -2,7 +2,8 @@
     --primary-color:black;
     --logo-color:#f2f2f2;
     --white-color:#fff;
-    --icon-badge:#0000ee;
+    --icon-badge:#3b82f6;
+
 }
 
 *{
@@ -65,15 +66,16 @@
 /* footer styles */
 .footer{
     position: relative;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
 }
 
 .footer-text{
     text-align: center;
     background-color: var(--primary-color);
-    color: var(--white-color);
+    color: var(--logo-color);
     width: 100%;
-    position: absolute;
-    left: 0;
-    bottom: 0;
     padding: 2px 0;
 }
