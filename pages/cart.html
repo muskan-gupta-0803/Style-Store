@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Style Store | Cart</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="https://lilac-ui.netlify.app/css/components.css">
+    <link rel="stylesheet" href="/styles.css">
+    <link rel="stylesheet" href="/css/cart.css">
+</head>
+<body>
+    <header class="header">
+        <div class="lilac-navbar">
+            <!-- logo -->
+            <a class="logo" href="../index.html">
+                <div class="lilac-nav-logo nav-logo">
+                    Style Store
+                </div>
+            </a>
+
+            <!-- nav search bar -->
+            <form class="form">
+                <input type="search" name="" id="" class="nav-search br-sm" placeholder="Search">
+                <button type="submit" class="search-icon">
+                    <i class="fas fa-search"></i>
+                </button>
+            </form>
+        
+            <!-- nav links -->
+            <div class="lilac-nav-links">
+                <a href="login.html" class="lilac-nav-items"><span class="btn btn-link login-button">Login</span></a>
+                <a href="wishlist.html" class="lilac-nav-items">
+                    <span class="icon-span">
+                        <div class="num-badge">8</div>
+                        <i class="far fa-heart"></i>  
+                    </span>
+                
+                </a>
+                <a href="cart.html" class="lilac-nav-items">
+                    <span class="icon-span">
+                        <div class="num-badge">10</div>
+                        <i class="fas fa-shopping-cart"></i>        
+                    </span>
+                </a>
+                <a href="#" class="lilac-nav-items">
+                    <span><i class="fas fa-bars"></i></span>
+                </a>
+            </div>
+        
+        </div>
+
+    </header>
+
+    <!-- MAIN CONTAINER -->
+    <main class="main-container">
+        <h1 class="align-center">My Cart</h1>
+
+        <div class="cart-full two-item-container ratio-70-30">
+            <section class="cart-section">
+                <div class="ecom-card-h br-sm">
+                    <img class="card-img br-sm img-responsive h-card-img" src="https://picsum.photos/150/150" alt=""/>
+                    <div class="card-body">
+                    <h3 class="card-title">T-Shirt</h3>
+                    <div class="">
+                        <span class="fw-bold">&#8377;800</span>
+                        <span class="text-striked">&#8377;1600 </span>
+                    </div>
+                    <small class="card-subtitle">50% off</small>
+                    <div>
+                        Quantity
+                        <i class="fas fa-minus-circle"></i>
+                        <span class="counter">1</span>
+                        <i class="fas fa-plus-circle"></i>
+                    </div>
+                    
+                    <button class="btn btn-primary hcard-btn btn-color">Remove from cart</button>
+                    <button class="btn btn-secondary hcard-btn">Move to wishlist</button>
+
+                </div> 
+
+                
+
+            </section>
+
+            <aside class="checkout-block">
+                <div class="card text-card br-md">
+                    <div class="card-body">
+                        <h3 class="card-title">PRICE DETAILS</h3>
+                        <hr>
+                        <div class="money-calc">
+                            <span>Price (2 items)</span>  
+                            <span>&#8377;2400</span>
+                        </div>
+                        <div class="money-calc">
+                            <span>Discount</span>  
+                            <span>-&#8377;1600</span>
+                        </div>
+                        <div class="money-calc">
+                            <span>Delivery Charges</span>  
+                            <span>&#8377;200</span>
+                        </div>
+                        <hr>
+                        <div class="money-calc fw-semibold">
+                            <span >Total Amount</span>  
+                            <span>&#8377;1800</span>
+                        </div>
+
+                        <p class="card-description">You save &#8377;1600 on this order</p>
+
+                        <button class="btn btn-primary hcard-btn btn-color">Proceed to pay</button>
+                    </div>  
+                </div>
+
+            </aside>
+        </div>
+
+    </main>
+
+    <!-- FOOTER SECTION -->
+    <footer class="footer c-footer">
+        <p class="footer-text">&copy; 2022 Style store | Made by Muskan Gupta</p>
+    </footer>
+
+</body>
+</html>
