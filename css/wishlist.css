@@ -1,0 +1,46 @@
+.main-container{
+    margin: 8vh 1rem 2rem;
+    background-color: var(--grey-color);
+    height: 100%; 
+    padding-top: 1rem;  
+}
+
+.wl-container{
+    position: relative;
+    display:flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+}
+
+.wl-footer{
+    position: fixed;
+}
+
+/* CARD CSS */
+
+.card{
+    height:fit-content;
+    max-width: 50%;
+    padding: 0.8rem 0.8rem 0;
+}
+
+.card a{
+    text-decoration: none;
+}
+
+.add-cart{
+    display: block;
+    color:var(--logo-color);
+    width:100%;
+    margin:0.5rem 0;
+    cursor: pointer;
+}
+
+.add-cart:hover{
+    opacity: 0.9;
+}
+
+.wl-heart{
+    color: var(--red-color);
+}
