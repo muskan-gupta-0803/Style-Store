@@ -1,0 +1,59 @@
+.main-container{
+    margin: 8vh 1rem 0rem;
+    background-color: var(--grey-color);
+    height: 100%; 
+    padding-top: 1rem;  
+}
+
+.cart-section{
+    display: flex;
+    flex-shrink: 5;
+    justify-content: center;
+}
+
+.checkout-block{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.ecom-card-h{
+    background-color: var(--white-color);
+    display:flex;
+    width:max-content;
+    margin: 0.5rem;
+}
+
+.h-card-img{
+    margin: 0.8rem;
+    height:24rem;
+}
+
+.card-body>*{
+    margin-bottom: 0.4rem;
+}
+
+.card-body .hcard-btn{
+    padding: 0.3rem 0.8rem;
+    width: 100%;
+    margin-left: 0;
+    cursor: pointer;
+}
+
+.hcard-btn:hover{
+    opacity: 0.9;
+}
+
+.btn-color{
+    color: var(--logo-color);
+}
+
+.money-calc{
+    display: flex;
+    justify-content: space-between;
+}
+
+.c-footer{
+    position: fixed;
+}
