@@ -1,5 +1,5 @@
 .main-container{
-    margin: 8vh 1rem 2rem 1rem;
+    margin: 8vh 1rem 2rem;
     background-color: var(--grey-color);
     height: 100%; 
     padding-top: 1rem;  
@@ -22,7 +22,7 @@
 .card{
     height:fit-content;
     max-width: 50%;
-    padding: 0.8rem 0.8rem 0 0.8rem;
+    padding: 0.8rem 0.8rem 0;
 }
 
 .card a{
