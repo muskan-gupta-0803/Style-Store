@@ -29,7 +29,11 @@
 }
 
 .mid-container{
+    position: relative;
     background-color: #c9c9c9;
+    background-image: url("../assets/images/banner-img.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .last-container{
@@ -48,4 +52,21 @@
 }
 .card-horizontal{
     width:50%;
+}
+
+.text-data{
+    position:absolute;
+    right:15rem;
+    top:5rem;
+}
+
+.text-data small,.text-data h2, .text-data h1{
+    color: var(--white-color);
+}
+
+.mid-container .btn{
+    margin-left: 0;
+    background-color: var(--white-color);
+    color: var(--primary-color);
+    cursor: pointer;
 }
